@@ -2,6 +2,9 @@
 //  LinkList.h
 //  HW04
 //
+//	Taken from https://github.com/harmonbc/HW04_harmonbc/blob/master/include/DrawableList.h
+//	Modified to work with my tree
+//
 //  Created by Jake Gregg on 11/12/12.
 //
 //

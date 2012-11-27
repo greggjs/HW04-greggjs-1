@@ -291,6 +291,8 @@ Entry* greggjsStarbucks::alwaysRightValue(Entry *c, int n, double x, double y) {
 	return minEntry;
 }
 
+/// This method was modeled from https://github.com/harmonbc/HW04_harmonbc/blob/master/src/HarmonStarBucks.cpp
+/// But modified for use with my tree. 
 void greggjsStarbucks::getArea(Vec2f top_left, Vec2f bottom_right, Node* root, bool xLevel, LinkList* list) {
 	if (root->data_ == NULL) return;
 

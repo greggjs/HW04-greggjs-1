@@ -138,6 +138,9 @@ void HW04App::prepareImages() {
     }
     
 	console() << "Finished with Census" << endl;
+
+	/// Taken from https://github.com/harmonbc/HW04_harmonbc/blob/master/resources/squaremurica.bmp
+	/// Thought this was a good image to use, since it was already scaled
     Surface map(loadImage("../resources/squaremurica.bmp"));
     map_texture_ = gl::Texture(map);
     
